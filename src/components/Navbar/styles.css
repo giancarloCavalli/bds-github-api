@@ -6,8 +6,9 @@
   align-items: center;
 }
 
-.nav-title {
+.nav-title, .nav-title:hover {
   color: rgba(255, 255, 255, 1);
+  text-decoration: none;
 }
 
 @media (min-width: 1200px) {
