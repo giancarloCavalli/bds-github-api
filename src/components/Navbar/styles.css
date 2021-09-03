@@ -9,3 +9,9 @@
 .nav-title {
   color: rgba(255, 255, 255, 1);
 }
+
+@media (min-width: 1200px) {
+  .nav-container {
+    padding: 10px 35px;
+  }
+}
