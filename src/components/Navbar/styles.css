@@ -1,0 +1,10 @@
+.page-container {
+  padding: 10px 20px;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: rgba(255, 255, 255, 1);
+}
