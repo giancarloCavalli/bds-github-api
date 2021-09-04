@@ -1,6 +1,24 @@
+import './styles.css';
+
 const Profile = () => {
   return (
-    <h1>Profile</h1>
+    <div className="prof-search-container">
+      <div className="prof-search-box">
+        <h1>Encontre um perfil no Github</h1>
+        <div>
+          <input type="text" name="" id="" />
+        </div>
+        <button className="btn-primary">Encontrar</button>
+      </div>
+      <div className="prof-content-container d-flex">
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+      </div>
+    </div>
   )
 }
 
