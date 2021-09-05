@@ -35,3 +35,30 @@
   box-sizing: border-box;
   border-radius: 4px;
 }
+
+@media (min-width: 576px) {
+  .prof-content-container {
+    flex-direction: row;
+    padding: 15px;
+  }
+
+  .prof-img-container {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .prof-content-container img {
+    align-items: center;
+    height: auto;
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .prof-content-container img {
+    align-items: center;
+    height: auto;
+    max-width: 65%;
+  }
+}
