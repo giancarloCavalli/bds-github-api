@@ -1,18 +1,22 @@
-import userImage from '../../assets/images/UserImg-Test.png';
+import { User } from '../../types/User';
 import './styles.css';
 
-const UserCard = () => {
+type Props = {
+  user: User;
+}
+
+const UserCard = ({ user }: Props) => {
   return (
     <div className="prof-content-container">
       <div className="prof-img-container">
-        <img src={userImage} alt="User profile Image" />
+        <img src={user.avatar_url} alt={`${user.name} avatar`} />
       </div>
       <div className="prof-info-box">
         <h6>Informações</h6>
-        <div className="prof-info-item"><b>Perfil:</b> <a href="https://github.com/giancarloCavalli">https://github.com/giancarloCavalli</a></div>
-        <div className="prof-info-item"><b>Seguidores:</b> 7</div>
-        <div className="prof-info-item"><b>Localidade:</b> Indaial</div>
-        <div className="prof-info-item"><b>Nome:</b> Giancarlo Cavalli</div>
+        <div className="prof-info-item"><b>Perfil:</b> <a href={user.html_url}>{user.html_url}</a></div>
+        <div className="prof-info-item"><b>Seguidores:</b> {user.followers}</div>
+        <div className="prof-info-item"><b>Localidade:</b> {user.location}</div>
+        <div className="prof-info-item"><b>Nome:</b> {user.name}</div>
       </div>
     </div>
   );

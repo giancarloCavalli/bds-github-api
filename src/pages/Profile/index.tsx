@@ -24,6 +24,7 @@ const Profile = () => {
       console.log(response.data);
     })
     .catch(error => {
+      setUser(undefined);
       console.log(error);
     })
   }
@@ -43,7 +44,7 @@ const Profile = () => {
         </div>
         <button className="btn-primary" onClick={handleClick}>Encontrar</button>
       </div>
-    <UserCard />
+    {user && <UserCard user={user} />}
     </div>
   )
 }

@@ -52,7 +52,6 @@
   .prof-content-container img {
     align-items: center;
     height: auto;
-    max-width: 70%;
   }
 }
 
@@ -60,6 +59,6 @@
   .prof-content-container img {
     align-items: center;
     height: auto;
-    max-width: 65%;
+    max-width: 80%;
   }
 }
