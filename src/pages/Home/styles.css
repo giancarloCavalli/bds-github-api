@@ -2,6 +2,11 @@
   padding: 20px;
 }
 
+.home-container button, .home-container button:hover {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
 .home-content {
   margin-top: 3px;
 }

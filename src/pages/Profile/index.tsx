@@ -5,7 +5,7 @@ const Profile = () => {
   return (
     <div className="prof-search-container">
       <div className="prof-search-box">
-        <h1>Encontre um perfil no Github</h1>
+        <h1>Encontre um perfil Github</h1>
         <div>
           <input type="text" name="" id="" />
         </div>

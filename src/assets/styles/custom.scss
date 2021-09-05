@@ -6,16 +6,17 @@ $theme-colors: (
   "primary": rgba(24, 144, 255, 1)
 );
 
-@import "node_modules/bootstrap/scss/bootstrap";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
-
 * {
   font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
 }
 
 body {
-  background-color: #FFF
+  background-color: #FFF;
 }
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 h1, h2, h3 {
   font-weight: 700;
