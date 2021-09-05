@@ -1,3 +1,4 @@
+import UserCard from '../../components/UserCard';
 import './styles.css';
 
 const Profile = () => {
@@ -10,14 +11,7 @@ const Profile = () => {
         </div>
         <button className="btn-primary">Encontrar</button>
       </div>
-      <div className="prof-content-container d-flex">
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-      </div>
+    <UserCard />
     </div>
   )
 }
